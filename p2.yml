@@ -9,10 +9,10 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull mugdha98/calculator
+      shell: docker pull crackedclown/calculator
       
     - name: running container
-      shell: docker run -it -d mugdha98/calculator
+      shell: docker run -it -d crackedclown/calculator
 
 # ---
 # - name: Pull docker image of Calculator

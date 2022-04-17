@@ -11,7 +11,7 @@ public class CalculatorTest {
 
     @Test
     public void SQRTTruePositive(){
-        assertEquals("Square Root of an integer number for True Positive", 2, calculator.SQRT(4), DELTA);
+        assertEquals("Square Root of an integer number for True Positive", 3, calculator.SQRT(9), DELTA);
         assertEquals("Square Root of an integer number for True Positive", 0.6, calculator.SQRT(0.36), DELTA);
         //assertEquals("Adding two double numbers for True Positive", 5.3, calculator.add(2.1, 3.2), DELTA);
     }
